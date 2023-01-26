@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00      ♡ Reg Boosts by Hellzin 
+                                                  youtube.com/hznplayer ♡
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+"EnableSuperfetch"=dword:00000000
+"EnableBoottrace"=dword:00000000

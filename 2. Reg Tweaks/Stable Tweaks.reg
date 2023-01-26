@@ -1,0 +1,219 @@
+Windows Registry Editor Version 5.00              ♡ Reg Boosts by Hellzin 
+                                                       youtube.com/hznplayer ♡
+[HKEY_CURRENT_USER\System\GameConfigStore] 
+"GameDVR_Enabled"=dword:00000000
+"GameDVR_FSEBehaviorMode"=dword:00000000
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000000
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001
+"GameDVR_EFSEFeatureFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR]
+"value"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR] 
+"AllowGameDVR"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"SystemResponsiveness"=dword:00000000
+"NetworkThrottlingIndex"=dword:ffffffff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000006
+"SFIO Priority"="High"
+"Scheduling Category"="High"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Audio]
+
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+"Background Only"="True"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Pro Audio]
+
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+"Background Only"="False"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+"AutoEndTasks"="1"
+"HungAppTimeout"="1000"
+"WaitToKillAppTimeout"="2000"
+"LowLevelHooksTimeout"="1000"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore]
+"AutoDownload"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableActivityFeed"=dword:00000000
+"EnableSmartScreen"=dword:00000000
+"ShellSmartScreenLevel"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"BingSearchEnabled"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+"CortanaConsent"=dword:00000000
+"DisableWebSearch"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableBehaviorMonitoring"=dword:00000001
+"DisableOnAccessProtection"=dword:00000001
+"DisableScanOnRealtimeEnable"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowSyncProviderNotifications"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"RotatingLockScreenEnabled"=dword:00000000
+"RotatingLockScreenOverlayEnabled"=dword:00000000
+"SubscribedContent-338387Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Privacy]
+"TailoredExperiencesWithDiagnosticDataEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance]
+"MaintenanceDisabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
+"HiberbootEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
+"StartupDelayInMSec"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MapsBroker]
+"Start"=dword:00000004
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR] 
+"AppCaptureEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"Flags"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"Flags"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys]
+"Flags"="0"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338393Enabled"=dword:00000000
+"SubscribedContent-353694Enabled"=dword:00000000
+"SubscribedContent-353696Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Speech_OneCore\Settings\OnlineSpeechPrivacy]
+"HasAccepted"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Personalization\Settings]
+"AcceptedPrivacyPolicy"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization]
+"RestrictImplicitInkCollection"=dword:00000001
+"RestrictImplicitTextCollection"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore]
+"HarvestContacts"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack]
+"ShowedToastAtLevel"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack\EventTranscriptKey]
+"EnableEventTranscript"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
+"NumberOfSIUFInPeriod"=dword:00000000
+"PeriodInNanoSeconds"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userNotificationListener]
+"Value"="Deny"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location]
+"Value"="Deny"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appDiagnostics]
+"Value"="Deny"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userAccountInformation]
+"Value"="Deny"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync]
+"SyncPolicy"=dword:00000005
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Personalization]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\BrowserSettings]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Credentials]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Accessibility]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Windows]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\GameBar]
+"AllowAutoGameMode"=dword:00000001
+"AutoGameModeEnabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wecsvc]
+"Start"=dword:00000004
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications]
+"GlobalUserDisabled"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
+"BackgroundAppGlobalToggle"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"RMHdcpKeyGlobZero"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler]
+"EnablePreemption"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+
+"TCPNoDelay"=dword:0000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Ndu]
+"Start"=dword:4
+
+
+
+
+
+
+
+
+
+
+
+
+
