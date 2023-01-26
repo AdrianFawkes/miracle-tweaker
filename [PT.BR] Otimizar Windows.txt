@@ -1,0 +1,40 @@
+⌦ GPEDIT.MSC
+
+Modelos Administrativos > Componente do Windows > Gravação e transmissão de jogos do windows > Desabilitar
+Modelos Administrativos > Rede > Agendador de Pacote QoS > Limitar largura de banda reservavél > Habilitar > Setar valor abaixo de "80" para "0"
+
+⌦ AGENDADOR DE TAREFAS
+
+Biblioteca do agendador > Microsoft > Windows > Maintenance > Desativar WinSAT
+
+⌦ GERENCIADOR DE DISPOSITIVOS
+
+Dispositivos de sistema > Timer de Eventos de Alta Precisão > Desabilitar
+
+⌦ CMD (Modo Administrador)
+
+bcdedit /set useplatformtick yes
+bcdedit /set disabledynamictick yes
+bcdedit /deletevalue useplatformclock
+
+⌦ SERVIÇOS (Desativar)
+
+▸ SysMain
+▸ Windows Search
+▸ Serviço de Relatorio de Erros
+▸ Registro Remoto
+▸ Serviço Coletor de Padrões de Hub de Diagnóstico
+▸ Serviço do Participante do Programa Windows Insider
+▸ Serviço de Compartilhamento de Rede do Windows Media Player
+▸ Controle dos Pais
+▸ Serviço de Geolocalização
+▸ Serviço de Criptografia de Unidade de Disco BitLocker
+▸ Experiências do Usuário Conectado e Telemetria
+▸ Spooler de Impressão
+▸ Serviço de Telefonia
+▸ Serviço de Cartão Inteligente
+▸ Fax
+▸ Gerenciador de Mapas Baixados
+▸ Cliente de rastreamento de link distribuido
+▸ Cartão inteligente
+▸ Serviço de teclado virtual

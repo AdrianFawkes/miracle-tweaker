@@ -1,0 +1,38 @@
+⌦ GPEDIT.MSC
+
+Administrative Templates > Windows Component > Windows Game Recording and Streaming > Disable
+Administrative Templates > Network > QoS Packet Scheduler > Limit Reserveable Bandwidth > Enable > Set value below "80" to "0"
+
+⌦ TASK SCHEDULER
+
+Scheduler Library > Microsoft > Windows > Maintenance > Disable WinSAT
+
+⌦ DEVICE MANAGER
+
+System Devices > High Precision Event Timer > Disable
+
+⌦ CMD (Administrator Mode)
+
+bcdedit /set useplatformtick yes
+bcdedit /set disabledynamictick yes
+bcdedit /deletevalue useplatformclock
+
+⌦ SERVICES (Disable)
+
+▸ SysMain
+▸ Windows Search
+▸ Bug Reporting Service
+▸ Remote Registry
+▸ Diagnostics Hub Pattern Collector service
+▸ Windows Insider Service
+▸ Windows Media Player Network Sharing Service
+▸ Parental Controls
+▸ Geolocation Service
+▸ BitLocker Drive Encryption Service
+▸ Connected User Experiences and Telemetry
+▸ Print Spooler
+▸ Telephone Service
+▸ Smart Card Service
+▸ Fax
+▸ Downloaded Maps Manager
+▸ Distributed link tracking client
